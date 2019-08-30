@@ -1,0 +1,18 @@
+{
+  "name": "strelo-server",
+  "version": "1.0.0",
+  "description": "strelo web server",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:development": "SET NODE_ENV=development& node .",
+    "start:production": "SET NODE_ENV=production& node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamiradadelsaber/web.git"
+  },
+  "author": "Strelo",
+  "dependencies": {
+    "routes": "2.1.0"
+  }
+}
